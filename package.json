@@ -1,0 +1,24 @@
+{
+  "name": "@hem5ai/auth_package",
+  "version": "1.1.0",
+  "description": "testing package",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "randon_testing",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahul3090500/auth_package.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+
+  "bugs": {
+    "url": "https://github.com/Rahul3090500/auth_package/issues"
+  },
+  "homepage": "https://github.com/Rahul3090500/auth_package#readme"
+}
