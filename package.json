@@ -1,24 +1,30 @@
 {
   "name": "@hem5ai/auth_package",
-  "version": "1.1.0",
-  "description": "testing package",
-  "main": "lib/index.js",
+  "version": "1.5.0",
+  "description": "background",
+  "main": "dist/BackgroundColorChanger.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir dist --copy-files"
   },
-  "author": "randon_testing",
+  "keywords": [],
+  "author": "mmm",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rahul3090500/auth_package.git"
   },
-  "keywords": [
-    "console log colors",
-    "colorify logs"
-  ],
-
   "bugs": {
     "url": "https://github.com/Rahul3090500/auth_package/issues"
   },
-  "homepage": "https://github.com/Rahul3090500/auth_package#readme"
+  "homepage": "https://github.com/Rahul3090500/auth_package#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3"
+  }
 }
