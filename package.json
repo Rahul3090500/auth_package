@@ -1,6 +1,6 @@
 {
   "name": "@hem5ai/auth_package",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "background",
   "main": "dist/index.js",
   "scripts": {
